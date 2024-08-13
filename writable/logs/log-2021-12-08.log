@@ -1,0 +1,27 @@
+ERROR - 2021-12-08 02:57:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') NOT NULL,
+	`available_quantity` INT(11) NOT NULL,
+	`subcategory_id` INT(11) NO' at line 6
+ERROR - 2021-12-08 03:02:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') NOT NULL,
+	`available_quantity` INT(11) NOT NULL,
+	`subcategory_id` INT(11) NO' at line 6
+ERROR - 2021-12-08 03:03:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') NOT NULL,
+	`created_at` datetime NOT NULL,
+	`updated_at` datetime NOT NULL,
+	`' at line 6
+ERROR - 2021-12-08 08:45:08 --> Unknown column 'gender1' in 'field list'
+CRITICAL - 2021-12-08 08:45:08 --> Unknown column 'gender1' in 'field list'
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `us...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(116): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessRegister()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}

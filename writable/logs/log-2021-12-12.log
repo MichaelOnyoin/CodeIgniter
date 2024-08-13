@@ -1,0 +1,78 @@
+ERROR - 2021-12-12 06:08:16 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-12 06:08:16 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->Base()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 06:58:39 --> Undefined variable $login_firstname
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\client_profile.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('client_profile', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(278): view('client_profile')
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ClientProfile()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 07:08:17 --> Undefined array key "user_id"
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\profile1.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('profile1', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(271): view('profile1')
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->Profile1()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-12 07:29:12 --> Invalid file: .php
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(293): view('')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->Logout1()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 07:29:52 --> Invalid file: .php
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(293): view('')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->Logout1()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 07:30:00 --> Invalid file: .php
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(293): view('')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->Logout1()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-12 08:06:37 --> Undefined variable $login_firstname
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\client_profile.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('client_profile', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(278): view('client_profile')
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ClientProfile()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

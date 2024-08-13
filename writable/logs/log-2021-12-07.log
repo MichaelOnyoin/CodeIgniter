@@ -1,0 +1,583 @@
+CRITICAL - 2021-12-07 03:57:03 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php:363
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php(363): abs('HY093')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions->determineCodes(Object(PDOException))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-07 03:58:37 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php:363
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php(363): abs('HY093')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions->determineCodes(Object(PDOException))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-07 03:58:37 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php:363
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php(363): abs('HY093')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions->determineCodes(Object(PDOException))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-07 03:58:38 --> Uncaught TypeError: abs(): Argument #1 ($num) must be of type int|float, string given in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php:363
+Stack trace:
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php(363): abs('HY093')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Debug\Exceptions.php(123): CodeIgniter\Debug\Exceptions->determineCodes(Object(PDOException))
+#2 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(PDOException))
+#3 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-12-07 04:09:36 --> Table 'ecommerce.posts' doesn't exist
+CRITICAL - 2021-12-07 04:09:36 --> Table 'ecommerce.posts' doesn't exist
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-07 05:49:59 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-07 05:49:59 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-07 05:51:25 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-07 05:51:25 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-07 05:51:47 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-07 05:51:47 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-07 05:52:01 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-07 05:52:01 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-07 05:52:19 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-07 05:52:19 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2021-12-07 05:52:53 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2021-12-07 05:52:53 --> Unknown column 'created_at' in 'field list'
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `po...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `po...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `po...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `po...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(71): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2021-12-07 05:55:49 --> Too few arguments to function App\Controllers\Blog::delete(), 0 passed in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->delete()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 05:57:36 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('blog/delete')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('blog/delete')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 05:58:07 --> Too few arguments to function App\Controllers\Blog::delete(), 0 passed in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->delete()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 06:00:21 --> Undefined variable $post
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\new_post.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('new_post', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(76): view('new_post', Array)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-07 06:01:00 --> Undefined variable $post
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\new_post.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('new_post', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(76): view('new_post', Array)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-07 06:01:01 --> Undefined variable $post
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\new_post.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('new_post', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(76): view('new_post', Array)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-07 06:02:46 --> Undefined variable $post
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\new_post.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('new_post', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(76): view('new_post', Array)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-07 06:02:56 --> Array to string conversion
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\new_post.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('new_post', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(76): view('new_post', Array)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-07 06:21:52 --> checkName is not a valid Model Event callback.
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(1538): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('checkName')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(771): CodeIgniter\BaseModel->trigger('beforeInsert', Array)
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(71): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-12-07 06:40:46 --> Table 'code.user' doesn't exist
+CRITICAL - 2021-12-07 06:40:46 --> Table 'code.user' doesn't exist
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `user_id...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `user_id...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `user_id...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\table.php(15): CodeIgniter\Database\BaseConnection->query('SELECT `user_id...')
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('table', Array, true)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(58): view('table')
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->Table()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2021-12-07 06:40:53 --> Table 'code.user' doesn't exist
+CRITICAL - 2021-12-07 06:40:53 --> Table 'code.user' doesn't exist
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(84): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->Base()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-07 06:58:13 --> Too few arguments to function App\Controllers\Blog::Post(), 0 passed in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->Post()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 07:01:04 --> Too few arguments to function App\Controllers\Blog::Post(), 0 passed in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->Post()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 07:01:12 --> Undefined variable $post
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\new_post.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('new_post', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(77): view('new_post', Array)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-07 07:02:44 --> Too few arguments to function App\Controllers\Blog::Post(), 0 passed in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->Post()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 07:04:21 --> Too few arguments to function App\Controllers\Blog::Post(), 0 passed in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->Post()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 07:04:39 --> Undefined variable $id
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->Post()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 07:34:11 --> Too few arguments to function App\Controllers\Blog::Post(), 0 passed in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->Post()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 07:49:46 --> Undefined variable $post
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Views\new_post.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('new_post', Array, true)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(77): view('new_post', Array)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->new()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-07 07:58:26 --> Undefined variable $id
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->edit()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 08:00:20 --> Undefined variable $id
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->edit()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 08:00:39 --> Undefined variable $id
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->edit()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-07 09:53:39 --> Table 'ecommerce.posts' doesn't exist
+CRITICAL - 2021-12-07 09:53:39 --> Table 'ecommerce.posts' doesn't exist
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Models\CustomModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(17): App\Models\CustomModel->getPosts()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->index()
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-12-07 11:48:31 --> Table 'code.user' doesn't exist
+CRITICAL - 2021-12-07 11:48:31 --> Table 'code.user' doesn't exist
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(84): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->Base()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-07 12:11:11 --> Too few arguments to function App\Models\CustomModel::__construct(), 0 passed in C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Sample.php on line 19 and exactly 1 expected
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Sample.php(19): App\Models\CustomModel->__construct()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Sample->processLogin()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sample))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 12:34:41 --> Call to undefined method App\Models\CustomModel::getPosts
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Blog.php(17): CodeIgniter\Model->__call('getPosts', Array)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Blog->index()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 12:47:23 --> Call to undefined method CodeIgniter\Session\Session::getSession()
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('auth/home', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Sample.php(30): view('auth/home')
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Sample->homePage()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sample))
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-07 12:49:00 --> Call to undefined method CodeIgniter\Session\Session::getSession()
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('auth/home', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Sample.php(30): view('auth/home')
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Sample->homePage()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sample))
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-07 12:52:47 --> Call to undefined method CodeIgniter\Session\Session::getSession()
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('auth/home', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Sample.php(30): view('auth/home')
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Sample->homePage()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sample))
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-07 12:53:30 --> Call to undefined method CodeIgniter\Session\Session::getSession()
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1271): CodeIgniter\View\View->render('auth/home', Array, true)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Sample.php(30): view('auth/home')
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Sample->homePage()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sample))
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-07 13:57:55 --> Undefined variable $email
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 13:58:43 --> Undefined array key "Email"
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 13:59:04 --> Undefined array key "Password"
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 14:00:12 --> array_key_exists(): Argument #1 ($key) must be a valid array offset type
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseResult.php(297): array_key_exists(Array, Array)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(35): CodeIgniter\Database\BaseResult->getRow(Array)
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-07 14:06:51 --> Undefined array key "Passowrd"
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 14:10:26 --> array_key_exists(): Argument #1 ($key) must be a valid array offset type
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseResult.php(297): array_key_exists(Array, Array)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(44): CodeIgniter\Database\BaseResult->getRow(Array)
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-07 14:11:21 --> array_key_exists(): Argument #1 ($key) must be a valid array offset type
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseResult.php(297): array_key_exists(Array, Array)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(44): CodeIgniter\Database\BaseResult->getRow(Array)
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-07 14:13:30 --> array_key_exists(): Argument #1 ($key) must be a valid array offset type
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Database\BaseResult.php(297): array_key_exists(Array, Array)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(42): CodeIgniter\Database\BaseResult->getRow(Array)
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-07 14:18:43 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumRow()
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 14:19:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumRow()
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 14:20:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumRow()
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 14:21:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getNumRow()
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 14:24:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowNums()
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-07 14:28:01 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getNumRows
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-07 15:13:57 --> ini_set(): Session ini settings cannot be changed when a session is active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Sess...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Session\Handlers\FileHandler.php(80): ini_set('session.save_pa...', 'C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Config\Services.php(728): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\App), '::1')
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Config\BaseService.php(263): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Config\BaseService.php(192): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Config\Services.php(721): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#6 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Config\BaseService.php(263): CodeIgniter\Config\Services::session()
+#7 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Common.php(1053): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#8 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(40): session()
+#9 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->ProcessLogin()
+#10 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#11 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}

@@ -1,0 +1,29 @@
+CRITICAL - 2021-12-14 00:39:19 --> Undefined variable $db
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\app\Controllers\Cloth.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 169)
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->UserEdit()
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-14 00:39:55 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->UserEdit()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-14 00:40:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->UserEdit()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-14 05:55:41 --> Class "App\Controllers\OrderModel" not found
+#0 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(928): App\Controllers\Cloth->Orderer()
+#1 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cloth))
+#2 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\CodeIgniter4\CodeIgniter4\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
